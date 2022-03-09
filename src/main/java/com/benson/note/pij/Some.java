@@ -11,4 +11,8 @@ public class Some {
         LOG.info("execute cal and return val");
         return 1;
     }
+
+    public static void main(String[] args) {
+        new Some().calculate();
+    }
 }
